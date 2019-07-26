@@ -1,0 +1,12 @@
+{
+  "contact_page": {
+    "title": "聯絡我們",
+     "forms": {
+      "name": "姓名",
+      "mail": "電子信箱",
+      "phone": "手機",
+      "content": "內容",
+      "sumbit": "送出"
+    }
+  }
+}

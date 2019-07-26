@@ -1,0 +1,58 @@
+{
+  "members": [
+    {
+      "name": "曲明",
+      "avatar": "qu",
+      "title": "创始人",
+      "content": [ "互联城市咨询委员会 (CCAB) 理事会成员"]
+    },
+    {
+      "name": "李骁宇",
+      "avatar": "xiaoyu",
+      "title": "核心工程师",
+      "content": ["北京交通大学硕士"]
+    },
+    {
+      "name": "姚泽乾",
+      "avatar": "zaakin",
+      "title": "研发工程师",
+      "content": [""]
+    },
+    {
+      "name": "刘磊",
+      "avatar": "yupeng",
+      "title": "研发工程师",
+      "content": [""]
+    },
+    {
+      "name": "李嘉淇",
+      "avatar": "jiaqi",
+      "title": "研发工程师",
+      "content": [""]
+    },
+    {
+      "name": "王沛智",
+      "avatar": "michael",
+      "title": "商务拓展经理",
+      "content": ["伯明翰大学硕士"]
+    },
+    {
+      "name": "吴茜",
+      "avatar": "cecilia",
+      "title": "市场总监",
+      "content": ["英国大众传播和媒体研究硕士"]
+    },
+    {
+      "name": "薛玉成",
+      "avatar": "derek",
+      "title": "市场公关经理",
+      "content": [""]
+    },
+    {
+      "name": "曹磊",
+      "avatar": "leo",
+      "title": "市场经理",
+      "content": [""]
+    }
+  ]
+}

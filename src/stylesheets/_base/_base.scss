@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans CJK SC', 'Noto Sans CJK TC', 'Noto Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', 'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+  font-weight: 100;
+  height: 100%;
+  color: $color-gray-dark;
+  background-color: $color-gray-lightest;
+  &.state-fixed{
+    overflow: hidden;
+  }
+}
+a {
+  &, &:hover, &:focus {
+    color: inherit;
+  }
+}
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input {
+  border: none;
+}
+
+main.page_wrapper {
+  background: #1F2D51;
+}
+.page {
+  min-height: 600px;
+  margin-left: 5%;
+  margin-right: 5%;
+}

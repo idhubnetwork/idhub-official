@@ -1,0 +1,92 @@
+{
+  "component": {
+    "title": "IDHub 平台组件",
+    "list": [
+      {
+        "title":"smartContract",
+        "icon": "icon-component--01",
+        "img": "icon-tech-01",
+        "note": "智能合约定义",
+        "name": "标识符"
+      },
+      {
+        "title":"sdk",
+        "note": "连接现实身份与标识符的",
+        "icon": "icon-component--02",
+        "img": "icon-tech-02",
+        "name": "软件开发工具"
+      },
+      {
+        "title":"wallet",
+        "icon": "icon-component--03",
+        "img": "icon-tech-03",
+        "note": "基于区块链的",
+        "name": "身份应用钱包"
+      },
+      {
+        "title":"token",
+        "icon": "icon-component--04",
+        "img": "icon-tech-04",
+        "note": "稳定高效的",
+        "name": "原生代币系统"
+      }
+    ]
+  },
+  "flow": {
+    "title": "操作流程",
+    "step": "步骤",
+    "steps": [
+      {
+        "title": "注册",
+        "content": "创造一个区块链上的身份，绑定用户的公钥与代理合约的标识符。"
+      },
+      {
+        "title": "声明",
+        "content": "用户对于他的身份属性做出一份声明。声明符合 JWT 格式，并以用户的私钥签名。"
+      },
+      {
+        "title": "认证",
+        "content": "认证者审核声明，并为正确的声明背书。认证者会获得 IDHUB tokens 做为奖励。"
+      },
+      {
+        "title": "授权",
+        "content": "查询者问关于用户的问题。如果用户同意，查询者会被授权读取认证的内容。每次查询须付出用户规定金额的 IDHUB tokens。"
+      }
+    ]
+  },
+  "techs": {
+    "title": "IDHub 关键技术",
+    "list": [
+      {
+        "title": "Solidity",
+        "content": "以智能合約为基础的身份可认证來自个人或机构的声明，亦可控制数字货币或代币化的资产。",
+        "icon": "icon-key-tech-01"
+      },
+      {
+        "title": "Merkle Tree",
+        "content": "Merkle 树是一种每个叶节点都标有数据块，而每个非叶节点用其子节点标记的加密散列算法进行标记的树，通过提供适当的散列来实现最低限度的信息披露，从而只公开所需要的数据。这样可以帮助身份系统保持隐私，并减轻信息披露的潜在副作用。",
+        "icon": "icon-key-tech-02"
+      },
+      {
+        "title": "OpenPDS",
+        "content": "OpenPDS 可让用户存储个人数据，而用户以外的所有应用或服务只能获取有限或所需的部分数据。OpenPDS 为用户隐私及使用体验提供了一个双赢的解决方案，并且能在数字身份的应用场景扮演 Oracle 的角色。Oracle 是区块链上自动取得数据的一个可信任节点。",
+        "icon": "icon-key-tech-03"
+      },
+      {
+        "title": "Kademlia",
+        "content": "Kademlia 是一个点对点分布式哈希表，哈希表记录了不同哈希值进行异或运算的结果 (XOR) 。由于是基于异或运算的新型度量拓扑，Kademlia 具有可靠的稳定性及性能，且具有延迟最小化路由、无延迟故障恢复和对称单向拓扑等优势和特点。",
+        "icon": "icon-key-tech-04"
+      },
+      {
+        "title": "JWT",
+        "content": "身份属性的有效性通过由 JSON Web Token (JWT) 实现的认证来保证。JWT 是一种开放标准 (RFC 7519)，定义了一种紧凑且独立的方式，以在各方之间以 JSON 对象的形式安全传递信息。该信息可以通过数字签名验证和授信，签名用于验证JWT的发行者，确保该消息在传输过程中保持完整。",
+        "icon": "icon-key-tech-05"
+      },
+      {
+        "title": "Identity Graph",
+        "content": "身份图是身份之间行为的一种表示。在图中，节点就是身份，而边界就是行为。行为包括以好友身份添加、认可、评论和交易等。在区块链上，我们将这些行为转变为交易。IDHub系统中身份的声明和证明存储在 Merkle 树中，与其他身份的交互则以身份图的形式存储。",
+        "icon": "icon-key-tech-06"
+      }
+    ]
+  }
+}

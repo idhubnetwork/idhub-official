@@ -1,0 +1,92 @@
+{
+  "component": {
+    "title": "IDHub will provide",
+    "list": [
+      {
+        "title":"smartContract",
+        "icon": "icon-component--01",
+        "img": "icon-tech-01",
+        "note": "Smart contract defined",
+        "name": "identifier"
+      },
+      {
+        "title":"sdk",
+        "icon": "icon-component--02",
+        "img": "icon-tech-02",
+        "note": "Connecting identity to identifier",
+        "name": "SDK"
+      },
+      {
+        "title":"wallet",
+        "icon": "icon-component--03",
+        "img": "icon-tech-03",
+        "note": "Blockchain based",
+        "name": "identity wallet"
+      },
+      {
+        "title":"token",
+        "icon": "icon-component--04",
+        "img": "icon-tech-04",
+        "note": "Highly stable",
+        "name": "native token"
+      }
+    ]
+  },
+  "flow": {
+    "title": "Operating Flow",
+    "step": "Step",
+    "steps": [
+      {
+        "title": "Register",
+        "content": "Create an identity on a blockchain by binding an identifier of a proxy contract with a user's public key."
+      },
+      {
+        "title": "Claim",
+        "content": "The user makes a claim about some of her identity attributes in the format of JSON Web Token and signs the claim with her private key."
+      },
+      {
+        "title": "Attestation",
+        "content": "An attestant verifies the claim and endorses it if it is correct. The attestant will be rewarded with some IDHUB tokens."
+      },
+      {
+        "title": "Authorization",
+        "content": "An inspector asks some questions about a user. If the user permits, the inspector will be authorized to access the attestation. Each inquiry may cost different amount of IDHUB tokens upon the user's decision."
+      }
+    ]
+  },
+  "techs": {
+    "title": "IDHub Technical Components",
+    "list": [
+      {
+        "title": "Solidity",
+        "content": "The smart contract based identities can attest and verify claims from individuals or institutions.  It can also control cryptocurrencies or tokenized assets.",
+        "icon": "icon-key-tech-01"
+      },
+      {
+        "title": "Merkle Tree",
+        "content": "A Merkle tree is a hash based data structure that is a generalization of the hash list. It is a tree structure in which each leaf node is a hash of a block of data, and each non-leaf node is a hash of its children. Merkle trees are used in distributed system for efficient data verification. We use Merkle trees to realize the least disclosure of user data.",
+        "icon": "icon-key-tech-02"
+      },
+      {
+        "title": "OpenPDS",
+        "content": "OpenPDS stores user data. It allows external query only if the user grants permission.",
+        "icon": "icon-key-tech-03"
+      },
+      {
+        "title": "Kademlia",
+        "content": "Kademlia is a distributed hash table for decentralized peer-to-peer networks. Kademlia uses a distance calculation between two nodes. This distance is computed as the exclusive or (XOR) of the two node identifiers. Kademlia offers latency-minimized routing.",
+        "icon": "icon-key-tech-04"
+      },
+      {
+        "title": "JWT",
+        "content": "JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact JSON format for claims. This format can be signed, authorized, and verified.",
+        "icon": "icon-key-tech-05"
+      },
+      {
+        "title": "Identity Graph",
+        "content": "The interactions among identities are depicted as an identity graph in which each node is an identity and each edge is an action. The actions are converted to transactions on blockchain. An identity of IDHub is represented by a Merkle tree and an identity graph.",
+        "icon": "icon-key-tech-06"
+      }
+    ]
+  }
+}

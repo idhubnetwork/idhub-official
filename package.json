@@ -1,0 +1,46 @@
+{
+  "name": "idhub-official",
+  "description": "IDHub official website",
+  "author": "Don Hsieh <don@idhub.network> (http://github.com/donh)",
+  "license": "MIT",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/donh/idhub-gitlab"
+  },
+  "homepage": "http://idhub.network",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:css": "stylelint 'src/**/*.vue'"
+  },
+  "dependencies": {
+    "marked": "^0.7.0",
+    "vue": "^2.5.17",
+    "vue-i18n": "^7.6.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "bootstrap": "^4.1.3",
+    "breakpoint-sass": "^2.7.1",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.0.1",
+    "stylelint": "^9.4.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-processor-html": "^1.0.0",
+    "susy": "2.2.14",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-cli-plugin-pug": "^1.0.5",
+    "vue-scroll-reveal": "^1.0.8",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 6.0.0"
+  }
+}

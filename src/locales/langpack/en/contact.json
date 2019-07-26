@@ -1,0 +1,12 @@
+{
+  "contact_page": {
+    "title": "Contact us",
+     "forms": {
+      "name": "Name",
+      "mail": "Email",
+      "phone": "Phone",
+      "content": "Content",
+      "sumbit": "Send"
+    }
+  }
+}

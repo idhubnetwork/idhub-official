@@ -1,0 +1,58 @@
+{
+  "members": [
+    {
+      "name": "Doer Qu",
+      "avatar": "qu",
+      "title": "Founder",
+      "content": ["Council member of Connected City Advisory Board (CCAB)"]
+    },
+    {
+      "name": "Xiaoyu Li",
+      "avatar": "xiaoyu",
+      "title": "Core Developer",
+      "content": ["Master degree at Beijing Jiaotong University"]
+    },
+    {
+      "name": "Zeqian Yao",
+      "avatar": "zaakin",
+      "title": "Developer",
+      "content": [""]
+    },
+    {
+      "name": "Yupeng Liu",
+      "avatar": "yupeng",
+      "title": "Developer",
+      "content": [""]
+    },
+    {
+      "name": "Jiaqi Li",
+      "avatar": "jiaqi",
+      "title": "Developer",
+      "content": [""]
+    },
+    {
+      "name": "Michael Wang",
+      "avatar": "michael",
+      "title": "Business Development Manager",
+      "content": ["Master degree at University of Birmingham"]
+    },
+    {
+      "name": "Cecilia Wu",
+      "avatar": "cecilia",
+      "title": "Marketing Director",
+      "content": [ "Msc in Mass Communication and Media Research"]
+    },
+    {
+      "name": "Derek Xue",
+      "avatar": "derek",
+      "title": "Marketing & PR Manager",
+      "content": [""]
+    },
+    {
+      "name": "Leo Cao",
+      "avatar": "leo",
+      "title": "Marketing Manager",
+      "content": [""]
+    }
+  ]
+}

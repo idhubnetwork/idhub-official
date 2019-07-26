@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1200" viewBox="0 0 2560 1200">
+  <defs>
+    <linearGradient id="page-cover-bg-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#123075"/>
+      <stop offset="100%" stop-color="#092056"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -1050)">
+    <rect width="2560" height="1200" y="1050" fill="url(#page-cover-bg-a)"/>
+    <g transform="translate(93)">
+      <rect width="1333.333" height="1333.333" x="1119.809" y="382.809" fill="url(#page-cover-bg-a)" rx="100" transform="rotate(45 1786.476 1049.476)"/>
+      <rect width="1111.111" height="1111.111" x="1462.674" y="1082.341" fill="#1A47B0" opacity=".1" rx="100" style="mix-blend-mode:screen" transform="rotate(45 2018.23 1637.896)"/>
+      <rect width="1111.111" height="1111.111" x="1230.452" y="230.992" fill="#1A47B0" opacity=".1" rx="100" style="mix-blend-mode:screen" transform="rotate(45 1786.008 786.548)"/>
+      <rect width="1111.111" height="1111.111" x="230.452" y="446.785" fill="#1A47B0" opacity=".1" rx="100" style="mix-blend-mode:screen" transform="rotate(45 786.008 1002.34)"/>
+    </g>
+  </g>
+</svg>

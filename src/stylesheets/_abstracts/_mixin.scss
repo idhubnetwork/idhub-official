@@ -1,0 +1,87 @@
+@mixin clearfix {
+  &::before,
+  &::after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &::after {
+    clear: both;
+  }
+}
+
+@mixin clear_list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin font_loader($font_family, $font_weight, $font_style) {
+  font-weight: #{$font_weight + '00'};
+  $font_map: (
+    $notosans: 'notosans'
+  );
+
+  .wf-#{map-get($font_map, $font_family)}-#{$font_style + $font_weight}-active & {
+    font-family: #{$font_family}, Helvetica, Arial, sans-serif;
+  }
+}
+
+@mixin clear_link {
+  &, &:hover, &:visited, &:active, &:focus {
+    text-decoration: none;
+  }
+  &:hover{
+    color: inherit;
+  }
+}
+
+@mixin pt($value) {
+  padding-top: #{$value}px;
+}
+@mixin pb($value) {
+  padding-bottom: #{$value}px;
+}
+@mixin pt150 {
+  @include pt(150);
+}
+@mixin pt120 {
+  @include pt(120);
+}
+@mixin pt100 {
+  @include pt(100);
+}
+@mixin pt80 {
+  @include pt(80);
+}
+@mixin pt60 {
+  @include pt(60);
+}
+@mixin pt40 {
+  @include pt(40);
+}
+@mixin pb150 {
+  @include pb(150);
+}
+@mixin pb120 {
+  @include pb(120);
+}
+@mixin pb100 {
+  @include pb(100);
+}
+@mixin pb80 {
+  @include pb(80);
+}
+@mixin pb40 {
+  @include pb(40);
+}
+@mixin pb60 {
+  @include pb(60);
+}
+
+@mixin hide {
+  display: none;
+}
+.hide {
+  @include hide;
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g fill="none" fill-rule="evenodd" stroke="#F3F5FA" stroke-width="4" transform="translate(2 2)">
+    <path stroke-linejoin="round" d="M52,10 C52,17 55.926,24 62,24 C68.074,24 72,17 72,10 C72,3 70,0 62,0 C54,0 52,3 52,10 Z"/>
+    <path stroke-linejoin="round" d="M56 22L42 30 42 34C42 37.312 44 40 46 40L78 40C80 40 82 37.312 82 34L82 30 68 22M10 94C10 101 13.926 108 20 108 26.074 108 30 101 30 94 30 87 28 84 20 84 12 84 10 87 10 94z"/>
+    <path stroke-linejoin="round" d="M14 106L0 114 0 118C0 121.312 2 124 4 124L36 124C38 124 40 121.312 40 118L40 114 26 106M94 94C94 101 97.926 108 104 108 110.074 108 114 101 114 94 114 87 112 84 104 84 96 84 94 87 94 94z"/>
+    <path stroke-linejoin="round" d="M98,106 L84,114 L84,118 C84,121.312 86,124 88,124 L120,124 C122,124 124,121.312 124,118 L124,114 L110,106"/>
+    <polyline stroke-linejoin="round" points="112 64 104 72 96 64"/>
+    <polyline points="104 72 104 18 82 18"/>
+    <polyline stroke-linejoin="round" points="12 64 20 72 28 64"/>
+    <polyline points="20 72 20 18 42 18"/>
+    <polyline stroke-linejoin="round" points="78 64 62 80 54 72"/>
+    <path stroke-linejoin="round" d="M66 58L70 58M80 76C80 85.942 71.942 94 62 94 52.058 94 44 85.942 44 76 44 66.058 52.058 58 62 58"/>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+{
+  "members": [
+    {
+      "name": "Doer Qu",
+      "avatar": "qu",
+      "title": "설립턴",
+      "content": ["인터넷 도시 자문 위원회(CCAB) 이사회 성원"]
+    },
+    {
+      "name": "Xiaoyu Li",
+      "avatar": "xiaoyu",
+      "title": "핵심 엔지니어",
+      "content": ["북경교통대학 석사"]
+    },
+    {
+      "name": "Zeqian Yao",
+      "avatar": "zaakin",
+      "title": "연구 개발 엔지니어",
+      "content": [""]
+    },
+    {
+      "name": "Yupeng Liu",
+      "avatar": "yupeng",
+      "title": "연구 개발 엔지니어",
+      "content": [""]
+    },
+    {
+      "name": "Jiaqi Li",
+      "avatar": "jiaqi",
+      "title": "연구 개발 엔지니어",
+      "content": [""]
+    },
+    {
+      "name": "Michael Wang",
+      "avatar": "michael",
+      "title": "비즈니스 개발 관리자",
+      "content": ["버밍엄대학교 석사"]
+    },
+    {
+      "name": "Cecilia Wu",
+      "avatar": "cecilia",
+      "title": "마케팅 이사",
+      "content": [ "영국 대중 메체와 미디어 연구 석사"]
+    },
+    {
+      "name": "Derek Xue",
+      "avatar": "derek",
+      "title": "마케팅 홍보 관리자",
+      "content": [""]
+    },
+    {
+      "name": "Leo Cao",
+      "avatar": "leo",
+      "title": "마케팅 관리자",
+      "content": [""]
+    }
+  ]
+}

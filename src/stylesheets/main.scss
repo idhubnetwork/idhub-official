@@ -1,0 +1,20 @@
+  @import '../node_modules/bootstrap/scss/functions';
+  @import '../node_modules/bootstrap/scss/variables';
+  @import '../node_modules/bootstrap/scss/mixins';
+  @import '../node_modules/bootstrap/scss/root';
+  @import '../node_modules/bootstrap/scss/reboot';
+  @import '../node_modules/bootstrap/scss/grid';
+  @import '../node_modules/bootstrap/scss/buttons';
+  @import '../node_modules/bootstrap/scss/utilities';
+
+@import '_abstracts/_variables';
+@import '_abstracts/_mixin';
+@import '_abstracts/_grid';
+@import '_abstracts/_fonts';
+
+@import '_base/_base';
+
+@import "_components/_social";
+@import "_components/_cover";
+@import "_components/_section";
+@import "_layout/_header";

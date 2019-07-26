@@ -1,0 +1,24 @@
+map $http_upgrade $connection_upgrade {
+    default upgrade;
+    '' close;
+}
+
+upstream idhubweb{
+    server idhubweb01;
+}
+
+# For idhub web service
+server {
+    listen 80 default_server;
+
+    access_log /var/log/nginx/idhub.foxcat.co.access.log;
+    error_log /var/log/nginx/idhub.foxcat.co.error.log;
+
+    location / {
+        proxy_pass    http://idhubweb/;
+        proxy_set_header Host $host;
+    }
+
+    server_name idhub.network;
+}
+

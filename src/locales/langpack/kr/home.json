@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "homepage": "초기 화면",
+    "product": "제품",
+    "team": "팀",
+    "forum": "커뮤니티",
+    "news": "대중 매체 보도",
+    "contact": "연락처",
+    "download": "다운로드",
+    "switch-langs": "KR",
+    "switch-langs-title": "Switch The Language"
+  },
+  "cover": {
+    "title": "디지털 자산 관리와 응용 플랫폼",
+    "subtitle": "개방 원칙을 기본으로 한 중심화",
+    "message": "The contract address of IDHub token is 0x29F20242051AccDA50D52a7E272A5F23237e4696. Please check and verify your token address."
+  },
+  "vision": {
+    "title": "프로젝트 비전",
+    "subtitle": "IDHub는 개방 원칙에 기반을 두고 있고 블록체인 기술을 기반으로 한 디지털 신원 응용 플랫폼이며 우수한 기술 호환성과 기능성을 갖추고 있습니다. 디지털 사회 진입의 관문인 IDHub 는 블록체인 기술을 통하여 개인 신원의 효과성, 진위성 및 고유성을 합리적으로 검증하고, 신원 통제권을 제3자 정보 서비스 기관으로부터 개인의 손에 귀속시키고자 노력하며 사용자를 위해 완전하고 신뢰할 수 있는 신원을 구축하여 사용자가 주도하는 디지털 신원 관리와 응용 플랫폼을 구축합니다. 또한 안전하고 신뢰할 수 있는 신원 관리 시스템을 구축하여 궁극적으로 디지털 신원을 연결하는(사회 서비스, 디지털 자산, 디지털 라이프 등)비전을 실현합니다.",
+    "service": "전통적인 계정 시스템을 대체하고 디지털 사회로 진입하는 표준 신원 인터페이스를 만듭니다. 표준 신원 인터페이스 형식을 생성하여 계정과 애플리케이션을 분리함으로써 사용자는 디지털 자산을 자율적으로 관리 할 수 있으며 편리하게 디지털 자산을 현금화하거나 서비스 공급자를 변경할 수 있습니다.",
+    "asset": "디지털 경제를 향한 신뢰 생태계를 구축합니다. 권위 있는 기관의 데이터를 활성화하는 것은 디지털 자산을 강화하고, 신속하고 효율적인 신뢰 시스템을 구축하고, 신뢰할 수 있는 생태계를 조성하여 디지털 경제 활성화를 이루겠다는 것이다.",
+    "life": "인공 지능(AI)에 대한 데이터를 공급하기 위해 영원한 디지털화에 기초한 토대를 마련한 것입니다. 신뢰할 수있는 데이터를 사용자의 개인 데이터 센터 (PDC)에 넣고, 모든 사람들을 위한 디지털 버전의 대응할 수 있는 것을 만듭니다.",
+    "learnMore": "더 알아보기"
+  },
+    "roadmap": {
+    "title": "Roadmap",
+    "content": [
+      {
+        "year": "2017",
+        "quarters": [
+          {
+            "title": "Q3",
+            "events": ["The IDHub project is established"]
+          },
+          {
+            "title": "Q4",
+            "events": ["Blockchain application contest finalist", "Whitepaper released"]
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "quarters": [
+          {
+            "title": "Q1",
+            "events": ["Pre-sale",  "IDHub Foundation established in Singapore"]
+          },
+          {
+            "title": "Q2",
+            "events": ["Enterprise Ethereum Alliance (EEA) membership acquired", "Roadshow in Kuala Lumpur, Malaysia", "Crowdsale"]
+          },
+          {
+            "title": "Q3",
+            "events": ["IDHUB tokens available on exchanges", "Strategic alliance with Hivelocity"]
+          },
+          {
+            "title": "Q4",
+            "events": ["API released", "IDHub can validate identities on the Ethereum testnet"]
+          }
+        ]
+      },
+      {
+        "year": "2019",
+        "quarters": [
+          {
+            "title": "Q1",
+            "events": ["Mobile app released", "Rollout of IDHub community developer program"]
+          },
+          {
+            "title": "Q2",
+            "events": ["IDHUB tokens can be used to pay for KYC services", "Storage is decentralized"]
+          },
+          {
+            "title": "Q3",
+            "events": ["Credit score integration"]
+          },
+          {
+            "title": "Q4",
+            "events": ["Advertisement integration", "Biometrics integration"]
+          }
+        ]
+      }
+    ]
+  },
+  "community": "Community",
+  "whitepaper": "Whitepaper",
+  "whitepaperPath": "/IDHub_whitepaper_v0.5.0_kr.pdf",
+  "abount_us": "Abount us",
+  "activities": "Activities",
+  "app": "App",
+  "careers": "careers",
+  "case-title": "Use case: IMI identity solution",
+  "information": "Information",
+  "partner": "Partners"
+}

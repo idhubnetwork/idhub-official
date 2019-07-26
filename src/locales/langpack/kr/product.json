@@ -1,0 +1,92 @@
+{
+  "component": {
+    "title": "IDHub 플랫폼은 다음 구성 요소를 제공합니다",
+    "list": [
+      {
+        "title":"smartContract",
+        "icon": "icon-component--01",
+        "img": "icon-tech-01",
+        "note": "스마트 계약 정의",
+        "name": "식별자"
+      },
+      {
+        "title":"sdk",
+        "icon": "icon-component--02",
+        "img": "icon-tech-02",
+        "note": "현실적인 신분과 지표를 연결하는 것",
+        "name": "소프트웨어 개발 도구"
+      },
+      {
+        "title":"wallet",
+        "icon": "icon-component--03",
+        "img": "icon-tech-03",
+        "note": "블록체인을 기반으로 합니다.",
+        "name": "신원 애플리케이션 지갑"
+      },
+      {
+        "title":"token",
+        "icon": "icon-component--04",
+        "img": "icon-tech-04",
+        "note": "안정적이고 효율적이다.",
+        "name": "토큰 시스템"
+      }
+    ]
+  },
+  "flow": {
+    "title": "Operating Flow",
+    "step": "Step",
+    "steps": [
+      {
+        "title": "Register",
+        "content": "Create an identity on a blockchain by binding an identifier of a proxy contract with a user's public key."
+      },
+      {
+        "title": "Claim",
+        "content": "The user makes a claim about some of her identity attributes in the format of JSON Web Token and signs the claim with her private key."
+      },
+      {
+        "title": "Attestation",
+        "content": "An attestant verifies the claim and endorses it if it is correct. The attestant will be rewarded with some IDHUB tokens."
+      },
+      {
+        "title": "Authorization",
+        "content": "An inspector asks some questions about a user. If the user permits, the inspector will be authorized to access the attestation. Each inquiry may cost different amount of IDHUB tokens upon the user's decision."
+      }
+    ]
+  },
+  "techs": {
+    "title": "IDHub 주요 기술",
+    "list": [
+      {
+        "title": "Solidity",
+        "content": "Solidity는 스마트 계약 및 JavaScript와 유사한 고급 프로그래밍 언어입니다. 스마트 계약을 기반으로 한 디지털 신원은 개인, 장비, 실체나 기관과 같은 다양한 형식을 취할 수 있습니다. 예를 들어 성명, 동작, 교역 또는 거래에 대한 디지털 서명과 검증이 광범위하게 이루어집니다. 블록 체인과의 상호 작용으로 인해 디지털 화폐, 토큰과 같은 디지털 자산도 제어합니다.",
+        "icon": "icon-key-tech-01"
+      },
+      {
+        "title": "Merkle Tree",
+        "content": "Merkle 나무는 모든 나뭇잎 노드가 데이터 블록으로 표시되는 나무이며, 각 나뭇잎 노드가 아닌 노드는 암호화 해시 알고리즘을 표기하는 나무로 적합한 정보를 제공하고 최소한으로 필요한 정보를 제공해 필요한 자료만 공개한다. 이를 통해 신원 시스템을 비공개로 유지하고 정보 유출의 부작용을 완화 할 수 있습니다.",
+        "icon": "icon-key-tech-02"
+      },
+      {
+        "title": "OpenPDS",
+        "content": "OpenPDS를 사용하면 사용자가 개인 데이터를 저장할 수 있지만 사용자가 아닌 다른 응용 프로그램이나 서비스는 제한된 부분이나 필요한 부분 데이터만 얻을 수 있습니다. OpenPDS는 사용자 개인 정보 및 사용자 체험을 위한 윈윈 솔루션을 제공하며 디지털 신원에서 오라클의 역할을 수행 할 수 있습니다. 오라클은 블록 체인에서 자동 데이터 수집을 위한 신뢰할 수 있는 노드입니다.",
+        "icon": "icon-key-tech-03"
+      },
+      {
+        "title": "Kademlia",
+        "content": "Kademlia는 점 대 점(point-to-point) 분산 해시 테이블이며, 해시 테이블은 다른 해시에 대한 여러 결과(XOR)를 기록합니다. XOR 기반의 새로운 메트릭 토폴로지(metric topology) 로 인해 Kademlia는 믿을 수 있는 안정성과 성능을 갖추고 있으며, 대기 시간 최소화 라우팅, 지연없는 오류 복구 및 대칭적인 단방향 토폴로지(topology) 등의 장점과 기능 또한 갖추고 있습니다.",
+        "icon": "icon-key-tech-04"
+      },
+      {
+        "title": "JWT",
+        "content": "신원속성의 유효성은 JSON Web Token (JWT)에 의해 구현된 인증에 의해 보장됩니다. JWT는 오픈 표준 (RFC 7519)으로 JSON 객체 형식으로 당사자간에 정보를 안전하게 전달하기위한 치밀하고 독립적인 방법을 정의합니다. 이 정보는 디지털 서명으로 검증되고 신용 될 수 있으며, JWT의 발행인을 확인하고, 메시지가 전송 중에 그대로 유지되도록 할 수 있습니다.",
+        "icon": "icon-key-tech-05"
+      },
+      {
+        "title": "Identity Graph",
+        "content": "신원(ID) 그래프는 신원(ID)간의 동작을 나타냅니다. 그래프에서 노드는 신원(ID)이고 경계는 행위입니다. 행동에는 친구 추가, 승인, 댓글 달기 및 거래가 포함됩니다. 블록 체인에서 이를 거래로 전환합니다. IDHub 시스템 중의 신원(ID)의 성명과 증서는 Merkle 트리에 저장되고, 다른 신원과의 상호 작용은 신원 그래프의 양식으로 저장됩니다.",
+        "icon": "icon-key-tech-06"
+      }
+    ]
+  }
+}

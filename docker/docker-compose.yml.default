@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+#  mysql:
+#    container_name: mysql
+#    image: mysql:5.7
+#    hostname: mysql
+#    environment:
+#      - MYSQL_DATABASE=idhub
+#      - MYSQL_ROOT_PASSWORD=t4cj6dkru4
+#      - MYSQL_USER=foxcat
+#      - MYSQL_PASSWORD=t4cj6dkru4
+#    ports:
+#      - "3306:3306"
+#    volumes:
+#      - /etc/localtime:/etc/localtime:ro
+#      - ./src/mysql/my.cnf:/etc/my.cnf:ro
+#      - ./data/mysql:/var/lib/mysql
+#      - ./log/mysql:/var/log/mysql
+#    restart: always
+
+  nginx:
+    container_name: nginx
+    build: ./src/nginx
+    hostname: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
+    volumes:
+      - ./src/nginx/files/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./src/nginx/files/sites-enabled:/etc/nginx/sites-enabled:ro
+      - ./src/nginx/files/ssl:/etc/nginx/ssl:ro
+      - ./src/nginx/docker-entrypoint.sh:/entrypoint.sh:ro
+      - ./log/nginx:/var/log/nginx
+    restart: always
+
+  idhubweb01:
+    container_name: idhubweb01
+    build:
+      context: ../
+      dockerfile: ./docker/src/idhub_web/Dockerfile
+    hostname: idhubweb01
+    ports:
+      - "50080:80"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./configure.conf:/etc/idhub/configure.conf:ro
+      - ./src/idhub_web/docker-entrypoint.sh:/entrypoint.sh:ro
+      - ./log/idhub_web01:/var/log/idhub
+    restart: always
+    command: [ "-p" ]
+

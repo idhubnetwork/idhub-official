@@ -1,0 +1,139 @@
+// Susy
+// ----------
+@import "~susy/sass/susy";
+@import '~breakpoint-sass/stylesheets/breakpoint';
+
+// Device Size
+// ----------------
+
+$phone: 480px;
+$tablet: 576px;
+$laptop: 768px;
+$desktop: 992px;
+$fhd: 1200px;
+
+// Responsive Grids
+// ----------------
+$phone-layout   : layout(4 1/4);
+$tablet-layout  : layout(8 1/4);
+$laptop-layout  : layout(12 1/4);
+$desktop-layout : layout(12 1/4);
+$fhd-layout     : layout(12 1/4);
+
+// Breakpoints
+// -----------
+$susy-breakpoint: (
+  phone   : 576px,
+  tablet  : 768px,
+  laptop  : 992px,
+  desktop : 1200px,
+  fhd     : 1440px
+);
+
+
+// Susy Setup
+// ----------
+$susy: (
+  columns: 12,
+  gutters: 1/3,
+  container: $desktop,
+  global-box-sizing: border-box,
+  gutter-position: split,
+  debug: (
+    image: hide,
+    output: background,
+    color: rgba(#66f, .25),
+    toggle: top right
+  ),
+  use-custom: (
+    clearfix: true,
+  )
+);
+$susy-no-gutters: (
+  gutters: 0,
+);
+
+// Colors
+$blueprint: #416D7B;
+$offset: rgb(216,216,216);
+$graphite-dark: rgb(109,109,109);
+$graphite-mid: rgb(140,140,140);
+$graphite-light: rgba($graphite-mid,0.7);
+
+// Fonts
+$fallback: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$rolland: 'Rolland', $fallback;
+$simplifica: 'Simplifica', $fallback;
+$glober: 'Glober', $fallback;
+// Breakpoints
+// -----------
+// at-breakpoint(<$media-layout> [, <$font-size>]) { <@content> }
+@mixin phone {
+  @include susy-breakpoint(map-get($susy-breakpoint, phone), $phone-layout) {
+    @content;
+  }
+}
+@mixin tablet {
+  @include susy-breakpoint(map-get($susy-breakpoint, tablet), $tablet-layout) {
+    @content;
+  }
+}
+@mixin laptop {
+  @include susy-breakpoint(map-get($susy-breakpoint, laptop), $laptop-layout) {
+    @content;
+  }
+}
+@mixin desktop {
+  @include susy-breakpoint(map-get($susy-breakpoint, desktop), $desktop-layout) {
+    @content;
+  }
+}
+@mixin fhd {
+  @include susy-breakpoint(map-get($susy-breakpoint, fhd), $fhd-layout) {
+    @content;
+  }
+}
+
+.container {
+  z-index: 1;
+  // padding: 0 gutter();
+  @include container();
+  @include clearfix;
+  @include phone {
+    @include show-grid();
+  }
+  @include tablet {
+    @include show-grid();
+  }
+  @include laptop {
+    @include show-grid();
+  }
+  @include desktop {
+    @include show-grid();
+  }
+}
+
+.container-center {
+  @include clearfix;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ratio-1-1 {
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    padding-bottom: calc( 100% / 1 );
+  }
+  > :first-child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  > img {
+    height: auto;
+  }
+}

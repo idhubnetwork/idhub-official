@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g fill="none" fill-rule="evenodd" stroke="#F3F5FA" stroke-width="4" transform="translate(2 9)">
+    <path d="M42,28 L82,28"/>
+    <polyline stroke-linecap="round" points="108 56 102 62 102 66 94 74"/>
+    <path stroke-linecap="round" d="M60,74 L82,96 C82,96 84,98 86,98 C89.312,98 92,95.312 92,92 C92,90 90,88 90,88 L68,66"/>
+    <path stroke-linecap="round" d="M80,94 C80,94 82,96 82,98 C82,101.312 79.312,104 76,104 C74,104 72,102 72,102 L52,82"/>
+    <path stroke-linecap="round" d="M68 98C68 98 70 100 70 102 70 105.312 67.312 108 64 108 62 108 60 106 60 106L24 70 24 64 16 56M34 82C34 82 32 84 30 84 26.688 84 24 81.312 24 78 24 76 26 74 26 74"/>
+    <path stroke-linecap="round" d="M42,90 C42,90 40,92 38,92 C34.688,92 32,89.312 32,86 C32,84 34,82 34,82"/>
+    <path stroke-linecap="round" d="M50,98 C50,98 48,100 46,100 C42.688,100 40,97.312 40,94 C40,92 42,90 42,90"/>
+    <path stroke-linecap="round" d="M58 106C58 106 56 108 54 108 50.688 108 48 105.312 48 102 48 100 50 98 50 98M56 28L44 40C44 40 42 42 42 44 42 47.312 44.688 50 48 50 50 50 52 48 52 48L62 38 68 38 68 50 94 76C94 76 96 78 96 80 96 83.312 93.312 86 90 86 88 86 86 84 86 84"/>
+    <path d="M84,48 C84,51.312 81.312,54 78,54 L72,54"/>
+    <polyline stroke-linecap="round" stroke-linejoin="round" points="124 46 114 56 110 56 78 24 78 20 98 0"/>
+    <polyline stroke-linecap="round" stroke-linejoin="round" points="0 46 10 56 14 56 46 24 46 20 26 0"/>
+    <path stroke-linecap="round" d="M112 42L116 38M8 38L12 42"/>
+  </g>
+</svg>

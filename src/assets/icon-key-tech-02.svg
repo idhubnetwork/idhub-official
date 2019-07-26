@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g fill="none" fill-rule="evenodd" stroke="#F3F5FA" stroke-width="4" transform="translate(2 6)">
+    <g transform="translate(0 6)">
+      <polygon points="0 8 28 8 28 0 0 0"/>
+      <polygon points="0 24 28 24 28 16 0 16"/>
+      <polygon points="0 40 28 40 28 32 0 32"/>
+      <polygon points="0 56 28 56 28 48 0 48"/>
+      <polygon points="0 72 28 72 28 64 0 64"/>
+      <polygon points="0 88 28 88 28 80 0 80"/>
+      <polygon points="0 104 28 104 28 96 0 96"/>
+    </g>
+    <g transform="translate(44 22)">
+      <polygon points="0 12 32 12 32 0 0 0"/>
+      <polygon points="0 32 32 32 32 20 0 20"/>
+      <polygon points="0 52 32 52 32 40 0 40"/>
+      <polygon points="0 72 32 72 32 60 0 60"/>
+    </g>
+    <g transform="translate(36)">
+      <path d="M0 0L0 4M0 8L0 12M0 16L0 20M0 24L0 28M0 32L0 36M0 40L0 44M0 48L0 52M0 56L0 60M0 64L0 68M0 72L0 76M0 80L0 84M0 88L0 92M0 96L0 100M0 104L0 108M0 112L0 116"/>
+    </g>
+    <g transform="translate(84 16)">
+      <path d="M0 0L0 4M0 8L0 12M0 16L0 20M0 24L0 28M0 32L0 36M0 40L0 44M0 48L0 52M0 56L0 60M0 64L0 68M0 72L0 76M0 80L0 84"/>
+    </g>
+    <g transform="translate(92 40)">
+      <polygon points="0 10.001 16 .001 32 10.001 32 26.001 16 36.001 0 26.001"/>
+      <polyline points="32 10.001 16 20.001 0 10.001"/>
+      <path d="M16,20 L16,36"/>
+    </g>
+  </g>
+</svg>

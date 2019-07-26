@@ -1,0 +1,60 @@
+$icon-size-md: 36px;
+$icon-size-sm: 24px;
+.social {
+  @include clear_list;
+  &__item {
+    display: inline-block;
+    & + .social__item {
+      margin-left: 10px;
+      @media (#{$max_phone}) {
+        margin: 10px;
+      }
+    }
+    &:first-child{
+      margin-left: 0;
+      @media (#{$max_phone}) {
+        margin: 10px;
+      }
+    }
+  }
+  &__link{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    &:before{
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+    }
+    &--rounded {
+      height: $icon-size-md;
+      width: $icon-size-md;
+      line-height: $icon-size-md;
+      background-size: cover;
+      @include phone {
+        height: $icon-size-sm;
+        width: $icon-size-sm;
+        line-height: $icon-size-sm;
+      }
+      border-radius: 50%;
+      transition: opacity .4s ease;
+      opacity: .7;
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
+}
+.social__link {
+  &--facebook {background-image: url(assets/icon-contact--facebook.png);}
+  &--twitter {background-image: url(assets/icon-contact--twitter.png);}
+  &--slack {background-image: url(assets/icon-contact--slack.png);}
+  &--github {background-image: url(assets/icon-contact--github.png);}
+  &--telegram {background-image: url(assets/icon-contact--telegram.png);}
+  &--wechat {background-image: url(assets/icon-contact--wechat.png);}
+  &--qq {background-image: url(assets/icon-contact--qq.png);}
+  &--reddit {background-image: url(assets/icon-contact--reddit.png);}
+}

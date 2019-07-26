@@ -1,0 +1,18 @@
+{
+ "processors": ["stylelint-processor-html"],
+ "extends": "stylelint-config-standard",
+ "rules": {
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["each", "extend", "function", "if", "include", "mixin"]
+    }],
+    "at-rule-empty-line-before": null,
+    "color-hex-case": null,
+    "comment-empty-line-before": null,
+    "declaration-empty-line-before": "never",
+    "no-empty-source": null,
+    "number-leading-zero": null,
+    "rule-empty-line-before": null,
+    "selector-list-comma-newline-after": null,
+    "selector-pseudo-element-colon-notation": "single"
+  }
+}

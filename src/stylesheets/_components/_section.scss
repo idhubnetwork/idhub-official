@@ -1,0 +1,73 @@
+[class^='section-'] {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  @include pt40;
+  @include pb40;
+   @include phone {
+    @include pt60;
+    @include pb60;
+  }
+  @include tablet {
+    @include pt80;
+    @include pb80;
+  }
+  @include laptop {
+    @include pt100;
+    @include pb100;
+  }
+  @include desktop {
+    @include pt120;
+    @include pb120;
+  }
+  @include fhd {
+    @include pt150;
+    @include pb150;
+  }
+  .section__header {
+    margin-bottom: 50px;
+  }
+}
+
+.section__header {
+  %title-color-gray { color: $color-gray-dark;}
+  %title-color-white { color: $color-gray-lightest;}
+  padding-left: 15px;
+  padding-right: 15px;
+  @include clearfix;
+  h2 {font-size: 36px; line-height: 48px; @extend %title-color-gray; @include font_loader($notosans, 1, 'n'); margin-bottom: 16px;}
+  h3 {font-size: 18px; line-height: 30px; @extend %title-color-gray; @include font_loader($notosans, 1, 'n'); margin-bottom: 32px;}
+  h4 {font-size: 16px; line-height: 28px; @extend %title-color-gray; @include font_loader($notosans, 1, 'n'); margin-bottom: 24px;}
+  @include tablet {
+    @include span(6);
+    @include push(1);
+    h2 {font-size: 42px; line-height: 54px; margin-bottom: 20px;}
+    h3 {font-size: 18px; line-height: 30px; margin-bottom: 40px;}
+    h4 {font-size: 16px; line-height: 28px; margin-bottom: 30px;}
+  }
+  @include laptop {
+    @include span(6);
+    @include push(3);
+    h2 {font-size: 48px; line-height: 60px;}
+    h3 {font-size: 20px; line-height: 32px;}
+    h4 {font-size: 16px; line-height: 28px;}
+  }
+  .section-case & {
+    h2 {@extend %title-color-white;}
+    h3 {@extend %title-color-white;}
+    h4 {@extend %title-color-white;}
+  }
+  .section-download & {
+    @include tablet {
+      @include span(8);
+    }
+    @include laptop {
+      @include span(10);
+      @include push(1);
+    }
+    h2 {@extend %title-color-white;}
+    h3 {@extend %title-color-white;}
+    h4 {@extend %title-color-white;}
+  }
+}

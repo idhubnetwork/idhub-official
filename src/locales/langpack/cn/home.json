@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "homepage": "首页",
+    "product": "产品",
+    "team": "团队",
+    "forum": "论坛",
+    "news": "媒体报导",
+    "contact": "联系我们",
+    "download": "下载",
+    "switch-langs": "CN",
+    "switch-langs-title": "切换语系"
+  },
+  "cover": {
+    "title": "数字身份管理和应用平台",
+    "subtitle": "基于开放原则的去中心化",
+    "message": "IDHub token 的 ERC20 合约地址是 0x29F20242051AccDA50D52a7E272A5F23237e4696。请核对合约地址，避免受骗。"
+  },
+  "vision": {
+    "title": "愿景",
+    "subtitle": "IDHub 是建立在开放原则之上，基于区块链技术的去中心化数字身份应用平台，具备良好的技术兼容性与功能拓展性。作为进入数字社会的入口，IDHub通过区块链技术，对个人身份的有效性、真实性、唯一性进行合理验证，力求将身份控制权由第三方信息服务机构重新收回到个人手中，为用户塑造完整、可信的自主身份，构建以用户为主导的数字身份管理和应用平台，以及安全、自主、可信的身份管理机制，最终实现以数字身份链接一切 (社会服务、数字资产、数字生活等) 的愿景。",
+    "service": "取代传统账户体系，对账户与应用进行分离，用户自主管理数字资产，便捷地变现数字资产或更换服务提供商。",
+    "asset": "建设面向数字经济的可信生态体系。盘活权威机构已有数据，为个人数据资产背书，实现数字经济繁荣。",
+    "life": "为人工智能提供数据燃料，为数字化永生创造基础。将数据放置于用户的个人数据中心，为每个人创建数字版的对应体。",
+    "learnMore": "了解更多"
+  },
+  "roadmap": {
+    "title": "发展路线",
+    "content": [
+      {
+        "year": "2017",
+        "quarters": [
+          {
+            "title": "Q3",
+            "events": ["IDHub 项目启动"]
+          },
+          {
+            "title": "Q4",
+            "events": ["区块链技术与创新应用大赛决赛获奖", "白皮书发行"]
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "quarters": [
+          {
+            "title": "Q1",
+            "events": ["预售轮",  "IDHub 基金会于新加坡成立"]
+          },
+          {
+            "title": "Q2",
+            "events": ["获得企业以太坊联盟会员资格", "马来西亚吉隆坡路演", "众筹轮"]
+          },
+          {
+            "title": "Q3",
+            "events": ["IDHUB tokens 上交易所", "與 Hivelocity 策略聯盟"]
+          },
+          {
+            "title": "Q4",
+            "events": ["API 發佈", "IDHub 可在以太坊測試鏈上驗證身份"]
+          }
+        ]
+      },
+      {
+        "year": "2019",
+        "quarters": [
+          {
+            "title": "Q1",
+            "events": ["手機 app 發佈", "推出 IDHub 社群開發者計畫"]
+          },
+          {
+            "title": "Q2",
+            "events": ["IDHUB tokens 可用來支付 KYC 服務", "去中心化的儲存"]
+          },
+          {
+            "title": "Q3",
+            "events": ["信用評分"]
+          },
+          {
+            "title": "Q4",
+            "events": ["廣告", "生物識別"]
+          }
+        ]
+      }
+    ]
+  },
+  "community": "社群",
+  "whitepaper": "白皮书",
+  "whitepaperPath": "/IDHub_whitepaper_v0.6.0_en.pdf",
+  "abount_us": "关于我们",
+  "activities": "活动",
+  "app": "应用程序",
+  "careers": "招聘",
+  "case-title": "落地應用: IMI身份認證平台計畫",
+  "information": "消息",
+  "partner": "合作夥伴"
+}

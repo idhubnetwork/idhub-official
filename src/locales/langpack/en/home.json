@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "homepage": "Home",
+    "product": "Product",
+    "team": "Team",
+    "forum": "Forum",
+    "news": "News",
+    "contact": "Contact",
+    "download": "Download",
+    "switch-langs": "EN",
+    "switch-langs-title": "Switch The Language"
+  },
+  "cover": {
+    "title": "application platform",
+    "subtitle": "Decentralized digital identity",
+    "message": "The contract address of IDHub token is 0x29F20242051AccDA50D52a7E272A5F23237e4696. Please check and verify your token address."
+  },
+  "vision": {
+    "title": "Vision",
+    "subtitle": "IDHub is a decentralized identity platform which serves as an entrance to digital society. IDHub will empower user to reclaim their control of identity from service providers. Our vision is to realize sovereignty, security, and privacy and link identity to digital assets.",
+    "service": "Separating identity from applications to reduce switching cost among service providers.",
+    "asset": "Monetizing digital assets such as identity attributes and credit scores.",
+    "life": "Identity records could be the inputs of artificial intelligence for behavior forecasting.",
+    "learnMore": "Learn More"
+  },
+    "roadmap": {
+    "title": "Roadmap",
+    "content": [
+      {
+        "year": "2017",
+        "quarters": [
+          {
+            "title": "Q3",
+            "events": ["The IDHub project launched"]
+          },
+          {
+            "title": "Q4",
+            "events": ["Blockchain application contest finalist", "Whitepaper released"]
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "quarters": [
+          {
+            "title": "Q1",
+            "events": ["Pre-sale",  "IDHub Foundation is registered in Singapore"]
+          },
+          {
+            "title": "Q2",
+            "events": ["Enterprise Ethereum Alliance (EEA) membership acquired", "Roadshow in Kuala Lumpur, Malaysia", "Crowdsale"]
+          },
+          {
+            "title": "Q3",
+            "events": ["IDHUB tokens are listed on exchanges", "Strategic alliance with Hivelocity"]
+          },
+          {
+            "title": "Q4",
+            "events": ["API released", "IDHub can validate identities on the Ethereum testnet"]
+          }
+        ]
+      },
+      {
+        "year": "2019",
+        "quarters": [
+          {
+            "title": "Q1",
+            "events": ["Mobile app released", "Rollout of IDHub community developer program"]
+          },
+          {
+            "title": "Q2",
+            "events": ["IDHUB tokens can be used to pay for KYC services", "Storage is decentralized"]
+          },
+          {
+            "title": "Q3",
+            "events": ["Credit score integration"]
+          },
+          {
+            "title": "Q4",
+            "events": ["Advertisement integration", "Biometrics integration"]
+          }
+        ]
+      }
+    ]
+  },
+  "community": "Community",
+  "whitepaper": "Whitepaper",
+  "whitepaperPath": "/IDHub_whitepaper_v0.6.0_en.pdf",
+  "abount_us": "Abount us",
+  "activities": "Activities",
+  "app": "App",
+  "careers": "careers",
+  "case-title": "Use case: IMI identity solution",
+  "information": "Information",
+  "partner": "Partners"
+}

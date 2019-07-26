@@ -1,0 +1,12 @@
+{
+  "contact_page": {
+    "title": "联系我们",
+    "forms": {
+      "name": "姓名",
+      "mail": "邮箱",
+      "phone": "手机",
+      "content": "内容",
+      "sumbit": "送出"
+    }
+  }
+}
